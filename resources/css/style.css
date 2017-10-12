@@ -2,3 +2,72 @@ html {
   font-size: 18px;
   line-height: 1.4;
 }
+
+.site-container {
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/*mainbanner*/
+.mainbanner {
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 31rem;
+  padding-top: 1rem;
+}
+
+#navbanner {
+  background-color: cadetblue;
+  justify-content: space-between;
+}
+
+nav, .company {
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  padding: 1rem 0rem;
+  padding-right: 1rem;
+}
+
+nav p {
+  padding: 0rem 1rem;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+}
+
+.company img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  align-items: center;
+}
+
+.lookbanner {
+  background-color: white;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  display: flex;
+  margin-right: -2rem;
+  width: auto;
+}
+
+/*logomenu*/
+
+/*philappoint*/
+
+/*footer*/
