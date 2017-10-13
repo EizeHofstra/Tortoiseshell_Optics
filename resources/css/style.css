@@ -11,6 +11,11 @@ html {
   margin: 0 auto;
 }
 
+/*for development*/
+* div{
+  border: 1px solid purple;
+}
+
 /*mainbanner*/
 .mainbanner {
   background-image: url("../images/glasses-bg.png");
@@ -70,9 +75,42 @@ nav p {
   justify-content: flex-end;
   width: 100%;
 }
-
 /*logomenu*/
+.logomenu {
+  padding: 3rem 0rem;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+}
 
+#logocontainer {
+  justify-content: center;
+}
+
+.logo {
+  width: 5rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 3.5rem;
+}
+
+#cusfit {
+  margin: 0rem 6rem;
+}
+
+#cusfit img{
+  width: 5rem;
+}
+
+#fastdel img{
+  width: 5rem;
+}
 /*philappoint*/
 
 /*footer*/
