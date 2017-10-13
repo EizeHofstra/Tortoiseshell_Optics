@@ -65,6 +65,12 @@ nav p {
   margin-right: -2rem;
 }
 
+.newbanner {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
 /*logomenu*/
 
 /*philappoint*/
