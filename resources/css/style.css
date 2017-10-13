@@ -130,10 +130,28 @@ nav p {
 .info p {
   padding-top: 1rem;
   font-family: Helvetica, sans-serif;
-  
+
 }
 
 #philosophy {
   margin-right: 5%;
 }
 /*footer*/
+.footer {
+  background-color: Azure;
+  font-family: Helvetica, sans-serif;
+
+}
+
+.footlogo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 4rem;
+}
+
+.footlogo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
