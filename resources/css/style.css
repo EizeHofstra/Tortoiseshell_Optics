@@ -11,11 +11,6 @@ html {
   margin: 0 auto;
 }
 
-/*for development*/
-* div{
-  border: 1px solid purple;
-}
-
 /*mainbanner*/
 .mainbanner {
   background-image: url("../images/glasses-bg.png");
@@ -70,6 +65,10 @@ nav p {
   margin-right: -2rem;
 }
 
+.mobilenav {
+  display: none;
+}
+
 .newbanner {
   display: flex;
   justify-content: flex-end;
@@ -84,6 +83,10 @@ nav p {
 
 #logocontainer {
   justify-content: center;
+}
+
+.logomenu {
+  padding: 3.77rem 0rem;
 }
 
 .logo {
@@ -176,5 +179,72 @@ nav p {
   }
 }
 
-
 /*Media with less than 470px*/
+@media only screen and (max-width: 670px) {
+  .mobilenav {
+    display: initial;
+  }
+
+  .desktoplist {
+    display: none;
+  }
+
+  .mainbanner {
+    height: 17rem;
+  }
+
+  .lookbanner {
+    width: 100%;
+    padding: 1rem 0rem;
+    margin-top: 9rem;
+    text-align: center;
+    margin-right: 0rem;
+    justify-content: center;
+    font-size: 1rem;
+  }
+
+  #logocontainer {
+    flex-direction: column;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.77rem;
+  }
+
+  #cusfit {
+    margin: 0;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #philacontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #philosophy {
+    margin-right: 0;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .info h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .info p {
+    font-family: Helvetica, sans-serif;
+    font-size: 0.77rem;
+    padding: 1rem 0rem 4rem 0rem;
+  }
+
+  .footlogo {
+    width: 100%;
+    justify-content: center;
+  }
+}
